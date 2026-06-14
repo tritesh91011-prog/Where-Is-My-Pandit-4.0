@@ -1,0 +1,3 @@
+import type { Config } from 'tailwindcss';
+const config: Config = { content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}', './lib/**/*.{ts,tsx}'], theme: { extend: { colors: { saffron: '#D97706', maroon: '#7F1D1D', gold: '#FBBF24', cream: '#FFF7ED' }, fontFamily: { sans: ['var(--font-body)','Inter','system-ui'], display: ['var(--font-display)','serif'] }, boxShadow: { temple: '0 24px 80px rgba(127,29,29,.18)', glow: '0 0 48px rgba(251,191,36,.45)' }, backgroundImage: { mandala: 'radial-gradient(circle at center, rgba(251,191,36,.18), transparent 28%), linear-gradient(135deg, #FFF7ED, #fff)' } } }, plugins: [] };
+export default config;

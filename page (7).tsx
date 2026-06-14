@@ -1,0 +1,1 @@
+import AdminClient from './AdminClient';export const metadata={title:'Admin Panel'};export default function Admin(){return <section className="temple-pattern min-h-screen py-14"><div className="mx-auto max-w-7xl px-4"><AdminClient/></div></section>}

@@ -1,0 +1,2 @@
+export function bookingId(){ return `WIMP-${new Date().getFullYear()}-${Math.random().toString(36).slice(2,8).toUpperCase()}` }
+export function upiUrl(amount=''){ const pa='7828715882@ptsbi'; return `upi://pay?pa=${pa}&pn=${encodeURIComponent('Pandit Giriraj Nandan Dadhich')}&tn=${encodeURIComponent('Where Is My Pandit Booking')}${amount?`&am=${amount}`:''}&cu=INR`; }

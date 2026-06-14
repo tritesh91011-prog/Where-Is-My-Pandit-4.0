@@ -1,0 +1,7 @@
+create table if not exists customers (id bigserial primary key, full_name text not null, mobile text not null, email text, city text, state text, created_at timestamptz default now());
+create table if not exists bookings (id text primary key, full_name text not null, mobile text not null, email text, address text, city text, state text, event_date date, event_time time, service_type text not null, notes text, status text default 'Pending', created_at timestamptz default now());
+create table if not exists payments (id bigserial primary key, booking_id text references bookings(id), transaction_id text, amount numeric(12,2), status text default 'Verification Pending', created_at timestamptz default now());
+create table if not exists services (id bigserial primary key, slug text unique, title text not null, description text, duration text, benefits text, price text, image_url text, active boolean default true);
+create table if not exists gallery (id bigserial primary key, title text, media_type text, cloudinary_url text, created_at timestamptz default now());
+create table if not exists testimonials (id bigserial primary key, name text, city text, rating int check(rating between 1 and 5), review text, image_url text, approved boolean default false);
+create table if not exists blogs (id bigserial primary key, category text, title text, slug text unique, excerpt text, content text, published boolean default false, created_at timestamptz default now());

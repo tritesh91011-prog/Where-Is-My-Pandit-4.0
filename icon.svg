@@ -1,0 +1,31 @@
+export const owner = { name: 'Pandit Giriraj Nandan Dadhich', phone: '7828715882', email: 'hs07828715882@gmail.com', adminEmail: 'tritesh91011@gmail.com', upi: '7828715882@ptsbi' };
+export const services = [
+ {slug:'bhagwat-gita-katha',title:'Bhagwat Gita Katha',duration:'1–3 Days',price:'Custom Dakshina',benefits:'जीवन मार्गदर्शन, कर्मयोग, भक्ति और ज्ञान।',desc:'भगवद्गीता के शाश्वत उपदेशों का सरल, भक्तिमय और व्यवहारिक विवेचन।'},
+ {slug:'shrimad-bhagwat-katha',title:'Shrimad Bhagwat Katha',duration:'7 Days',price:'Custom Dakshina',benefits:'भक्ति वृद्धि, परिवारिक शांति, आध्यात्मिक आनंद।',desc:'श्रीकृष्ण लीलाओं और भागवत महापुराण का अमृतमयी श्रवण।'},
+ {slug:'shri-narayan-katha',title:'Shri Narayan Katha',duration:'1–5 Days',price:'Custom Dakshina',benefits:'समृद्धि, संरक्षण और धर्म स्थापना।',desc:'भगवान नारायण की महिमा, अवतार और भक्त-चरित्र की कथा।'},
+ {slug:'shiv-puran-katha',title:'Shiv Puran Katha',duration:'3–7 Days',price:'Custom Dakshina',benefits:'मन शांति, बाधा निवारण, शिव कृपा।',desc:'भगवान शिव की करुणा, ज्योतिर्लिंग महिमा और शिव तत्व का वर्णन।'},
+ {slug:'devi-bhagwat-katha',title:'Devi Bhagwat Katha',duration:'3–9 Days',price:'Custom Dakshina',benefits:'शक्ति उपासना, रक्षा और मंगल।',desc:'माँ भगवती की महिमा, शक्ति साधना और देवी चरित्र का पावन पाठ।'},
+ {slug:'ram-katha',title:'Ram Katha',duration:'1–9 Days',price:'Custom Dakshina',benefits:'मर्यादा, संस्कार और पारिवारिक सद्भाव।',desc:'श्रीराम चरित, आदर्श जीवन और भक्तिभाव का मधुर प्रवचन।'},
+ {slug:'sundarkand-path',title:'Sundarkand Path',duration:'2–4 Hours',price:'Custom Dakshina',benefits:'भय निवारण, साहस, हनुमान कृपा।',desc:'श्रीरामचरितमानस के सुंदरकांड का विधिवत, ऊर्जावान पाठ।'},
+ {slug:'satyanarayan-katha',title:'Satyanarayan Katha',duration:'2–3 Hours',price:'Custom Dakshina',benefits:'सुख-समृद्धि, मनोरथ सिद्धि।',desc:'भगवान सत्यनारायण की पूजा एवं कथा संपूर्ण विधि-विधान से।'},
+ {slug:'rudrabhishek',title:'Rudrabhishek',duration:'2–5 Hours',price:'Custom Dakshina',benefits:'ग्रह दोष शांति, स्वास्थ्य, शिव आशीर्वाद।',desc:'वैदिक मंत्रों से भगवान शिव का रुद्राभिषेक और पूजन।'},
+ {slug:'grah-shanti-puja',title:'Grah Shanti Puja',duration:'2–4 Hours',price:'Custom Dakshina',benefits:'ग्रह बाधा शमन, जीवन में संतुलन।',desc:'जन्मकुंडली और आवश्यकतानुसार ग्रह शांति पूजा।'},
+ {slug:'vastu-shanti',title:'Vastu Shanti',duration:'2–4 Hours',price:'Custom Dakshina',benefits:'गृह ऊर्जा संतुलन, मंगल वातावरण।',desc:'घर, कार्यालय या प्रतिष्ठान के लिए वास्तु शांति विधि।'},
+ {slug:'yagya-havan',title:'Yagya & Havan',duration:'1–5 Hours',price:'Custom Dakshina',benefits:'शुद्धि, सकारात्मक ऊर्जा, देव कृपा।',desc:'वैदिक मंत्रों के साथ यज्ञ, हवन और अनुष्ठान।'},
+ {slug:'marriage-rituals',title:'Marriage Rituals',duration:'As per Muhurat',price:'Custom Dakshina',benefits:'वैदिक विवाह संस्कार, मंगल आशीर्वाद।',desc:'संपूर्ण विवाह विधि, मंत्रोच्चार और संस्कार संचालन।'},
+ {slug:'griha-pravesh',title:'Griha Pravesh',duration:'2–4 Hours',price:'Custom Dakshina',benefits:'नवगृह मंगल, गृह शांति।',desc:'नए घर में प्रवेश हेतु पूजा, कलश स्थापना और हवन।'},
+ {slug:'naamkaran-sanskar',title:'Naamkaran Sanskar',duration:'1–2 Hours',price:'Custom Dakshina',benefits:'शिशु के शुभ नाम और संस्कार की शुरुआत।',desc:'वैदिक परंपरा से नामकरण संस्कार।'},
+ {slug:'other-hindu-ritual-services',title:'Other Hindu Ritual Services',duration:'Custom',price:'Custom Dakshina',benefits:'आपकी आवश्यकता अनुसार विधि-विधान।',desc:'अन्य सनातन धर्म पूजा, पाठ, संस्कार और अनुष्ठान।'}
+];
+export const blogPosts = [
+ {cat:'Bhagavad Gita',title:'कर्मयोग: आधुनिक जीवन में गीता का संदेश',excerpt:'कर्म, भक्ति और समत्व की सरल व्याख्या।'},
+ {cat:'Spiritual Knowledge',title:'कथा श्रवण का आध्यात्मिक महत्व',excerpt:'कथा कैसे मन, परिवार और समाज को जोड़ती है।'},
+ {cat:'Hindu Festivals',title:'व्रत, पर्व और पूजा की तैयारी',excerpt:'घर में पूजा आयोजन के आवश्यक चरण।'},
+ {cat:'Vedic Wisdom',title:'मंत्र, संकल्प और श्रद्धा',excerpt:'वैदिक अनुष्ठानों में शुद्ध भाव का महत्व।'},
+ {cat:'Sanatan Dharma',title:'सनातन परंपरा: संस्कारों की धरोहर',excerpt:'जीवन के हर चरण में धर्म और संस्कार।'}
+];
+export const testimonials = [
+ {name:'Ramesh Sharma',city:'Indore',rating:5,text:'भागवत कथा अत्यंत भावपूर्ण और ज्ञानवर्धक रही। संपूर्ण परिवार धन्य हुआ।'},
+ {name:'Meena Joshi',city:'Ujjain',rating:5,text:'रुद्राभिषेक विधि-विधान से हुआ। पंडित जी का मंत्रोच्चार दिव्य अनुभव था।'},
+ {name:'Amit Tiwari',city:'Bhopal',rating:5,text:'ऑनलाइन बुकिंग सरल रही और कार्यक्रम समय पर सम्पन्न हुआ।'}
+];
